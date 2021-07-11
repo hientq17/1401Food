@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.0.18/sweetalert2.min.js" integrity="sha512-mBSqtiBr4vcvTb6BCuIAgVx4uF3EVlVvJ2j+Z9USL0VwgL9liZ638rTANn5m1br7iupcjjg/LIl5cCYcNae7Yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.0.18/sweetalert2.css" integrity="sha512-DYOwgMAsSbNzrSwEU3nQ7bcYo5aEqpIq1lOe5doeuUwXjuFYjIPvIZDZrEOH+QMIXvRpqcc8gPKcoIMIyAZMCg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 
 <style>
@@ -44,9 +48,9 @@
         </div>
         <div class="humberger__menu__cart">
             <ul>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                <li><a href="./shopping-cart.html"><i class="fa fa-shopping-bag"></i> <span class="total-item">0</span></a></li>
             </ul>
-            <div class="header__cart__price">Số tiền: <span>770,000₫</span></div>
+            <div class="header__cart__price">Số tiền: <span class="total-price"></span>0 d</div>
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
@@ -107,7 +111,7 @@
                 <div class="col-lg-3">
                     <div class="header__cart">
                         <ul>
-                             <li><a href="#"><i class="fa fa-shopping-bag"></i> <span class="total-item"></span></a></li>
+                             <li><a href=./shopping-cart.html""><i class="fa fa-shopping-bag"></i> <span class="total-item"></span></a></li>
                         </ul>
                         <div class="header__cart__price">Số tiền: <span><span class="total-price"></span></span></div>
                     </div>
@@ -220,7 +224,7 @@
                                 <ul class="ul-item">
                                 </ul>
                                 <div class="checkout__order__subtotal">Tổng tiền <span class="total-price"></span></div>
-                                <button type="submit" class="site-btn">THANH TOÁN</button>
+                                <button type="submit" class="site-btn btn-payment">THANH TOÁN</button>
                             </div>
                         </div>
                     </div>

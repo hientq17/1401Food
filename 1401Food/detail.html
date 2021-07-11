@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+     <link rel="stylesheet" href="css/application.css" type="text/css">
 </head>
 
 <style>
@@ -46,9 +47,9 @@
         </div>
         <div class="humberger__menu__cart">
             <ul>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                <li><a href="./shopping-cart.html"><i class="fa fa-shopping-bag"></i> <span class="total-item">0</span></a></li>
             </ul>
-            <div class="header__cart__price">Số tiền: <span>770,000₫</span></div>
+            <div class="header__cart__price">Số tiền: <span class="total-price"></span>0 d</div>
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
@@ -109,9 +110,9 @@
                 <div class="col-lg-3">
                     <div class="header__cart">
                         <ul>
-                             <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                             <li><a href="./shopping-cart.html"><i class="fa fa-shopping-bag"></i> <span class="total-item">3</span></a></li>
                         </ul>
-                        <div class="header__cart__price">Số tiền: <span>770,000₫</span></div>
+                        <div class="header__cart__price">Số tiền: <span class="total-price">770,000₫</span></div>
                     </div>
                 </div>
             </div>
@@ -167,7 +168,7 @@
                                 kg
                             </div>
                         </div>
-                        <a href="#" class="primary-btn">THÊM VÀO GIỎ HÀNG</a>
+                        <a data-name="Khô gà" data-price="480000" data-image="img-khoga.jpg" class="primary-btn buy">THÊM VÀO GIỎ HÀNG</a>
                         <ul>
                             <li><b>Trạng thái</b> <span style="color: green;">Còn hàng</span></li>
                             <li><b>Vận chuyển</b><span>Freeship trong nội thành Đà Nẵng</span></li>
@@ -323,7 +324,7 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
+  <script src="js/application.js"></script>
 
 </body>
 
